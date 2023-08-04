@@ -1,0 +1,39 @@
+.sidebar-container {
+  padding: 20px 50px 0 20px;
+  height: 88.5vh;
+  border-right: 1px solid var(--pri-black);
+  width: 20%;
+}
+
+.active {
+  text-decoration: none;
+  display: flex;
+}
+.pending {
+}
+.navPending {
+  text-decoration: none;
+  margin-bottom: 16px;
+}
+.navPending > h1 {
+  text-decoration: none;
+  margin-bottom: 8px;
+  padding: 8px 16px;
+}
+.active > h1 {
+  text-decoration: none;
+  background-color: var(--pri-black);
+  color: #fff;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  padding: 8px 16px;
+  width: 100%;
+}
+.navPending > h1:hover {
+  text-decoration: none;
+  margin-bottom: 16px;
+  background-color: rgba(128, 128, 128, 0.1);
+  border-radius: 8px;
+  margin-bottom: 8px;
+  width: 100%;
+}
